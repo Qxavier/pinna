@@ -9,7 +9,7 @@
 //#define VAL_LENGTH 32
 #define LEVEL_DEPTH 4
 
-typedef struct antKeyVal {
+typedef struct pin_iterm {
     char key[KEY_LENGTH];
     unsigned long long val;
 };
